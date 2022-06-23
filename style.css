@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+:root {
+    --main-bg-color: hsl(185, 41%, 84%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --grayish-cyan: hsl(184, 14%, 56%);
+    --very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --strong-cyan: hsl(172, 67%, 45%);
+    --white: hsl(0, 0%, 100%);
+    --hover-cyan: #9fe8df;
+    --border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: 'Space Mono', monospace;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+}
+
+figure #logo {
+    width: 5rem;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    padding: 25px;
+}
+
+.insideDiv {
+    width: 50%;
+}
+
+#rightInsideDiv {
+    background-color: var(--very-dark-cyan);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#amountContainer {
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.amountDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amountDiv .number {
+    color: var(--strong-cyan);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.amountDiv .amountText {
+    color: var(--white);
+    font-size: 0.7rem;
+}
+
+.amountDiv .personText {
+    color: var(--white);
+    font-size: 0.5rem;
+    opacity: 60%;
+}
+
+#rightInsideDiv #reset {
+    text-decoration: none;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: inherit;
+    background-color: #0d686d;
+    color: var(--very-dark-cyan);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#rightInsideDiv #reset:hover {
+    background-color: var(--hover-cyan);
+}
+
+#rightInsideDiv #reset:focus {
+    box-flex-group: var(--strong-cyan);
+}
+
+#leftInsideDiv {
+    width: 45%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.buttonDiv {
+    margin: 25px 0;
+}
+
+.buttonDiv .buttonBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttonBox .button {
+    background-color: var(--very-dark-cyan);
+    padding: 7px 5px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 30%;
+    margin: 3px;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.buttonBox .button:hover {
+    background-color: var(--hover-cyan);
+    color: #000;
+}
+
+.buttonBox .button:focus {
+    background-color: var(--strong-cyan);
+    color: #000;
+    outline: none;
+}
+
+.buttonBox .button.active {
+    background-color: var(--strong-cyan);
+    color: var(--white);
+}
+
+.buttonBox #custom {
+    background-color: #e8f3fa;
+    color: var(--very-dark-cyan);
+    border: 2px solid transparent;
+    outline: none;
+    font-family: inherit;
+    text-align: right;
+}
+
+#custom::placeholder {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--dark-grayish-cyan);
+    font-family: inherit;
+    text-align: center;
+}
+
+#custom:hover {
+    border: 2px solid var(--strong-cyan);
+}
+
+#custom:focus-within{
+    border: 2px solid var(--strong-cyan);
+    background-color: var(--white);
+}
+
+.buttonDiv p {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.inputDiv label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e8f3fa;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.inputBox:focus-within {
+    border: 2px solid var(--strong-cyan);
+}
+
+.inputBox:hover {
+    border: 2px solid var(--strong-cyan);
+}
+
+.inputBox img {
+    width: 0.5rem;
+}
+
+.inputBox input {
+    width: 93%;
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    outline: none;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: inherit;
+    color: var(--very-dark-cyan);
+}
+
+.inputBox input::placeholder {
+    font-size: 1rem;
+}
+
+.inputBox input[type = number]::-webkit-inner-spin-button,
+.inputBox input[type = number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media screen and (max-width: 960px ) {
+
+    figure #logo {
+        width: 3rem;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 20 15px;
+    }
+
+    .insideDiv {
+        width: 100%;
+    }
+
+    #leftInsideDiv {
+        width: 100%;
+    }
+
+    #amountContainer {
+        margin-bottom: 60px;
+    }
+
+    footer {
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    html body {
+        font-size: 0.6rem;
+    }
+
+    main {
+        width: 80%;
+    }
+
+    .amountDiv .number {
+        font-size: 1.5rem;
+    }
+
+    .buttonBox .button {
+        width: 28%;
+    }
+}
