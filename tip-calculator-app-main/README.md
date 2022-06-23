@@ -57,7 +57,7 @@ Users should be able to:
 
 ### Useful resources
 
-- (https://www.developermozilla.org) - This is an amazing article which helped me finally understand a lot of things. I'd recommend it to anyone still learning this just about anything concerning website development.
+- (https://www.developermozilla.org) - This is an amazing website which helped me finally understand a lot of things. I'd recommend it to anyone still learning this just about anything concerning website development.
 
 ## Author
 
