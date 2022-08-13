@@ -38,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+[Live demo](https://tippercentcalculator.netlify.app)
 
 ## My process
 
@@ -52,7 +52,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flex
 - Javascript
 
 ### Useful resources
@@ -61,10 +61,11 @@ Users should be able to:
 
 ## Author
 
-- Website - [Adedayo Adegbola](https://www.your-site.com)
+
 - Frontend Mentor - [@joesef127](https://www.frontendmentor.io/profile/joesef127)
 - Twitter - [@merlinhive](https://www.twitter.com/merlinhive)
 
 ## Acknowledgments
 
-Big ups to Future Academy Africa, the great mentor, Kitan David and my tutor Adegoke Temitope (@devdre1909) 
+Big ups to Future Academy Africa, Kitan David and
+Adegoke Temitope(@devdre1909) 
